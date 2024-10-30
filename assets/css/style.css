@@ -1,0 +1,100 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+width: 100vw;
+height: 100vh;
+background : #eee;
+border : gray;
+display: flex;
+flex-wrap: wrap;
+align-content: space-evenly;
+justify-content: space-evenly;
+
+}
+
+.container1{
+    width: 50%;
+height: 50%;
+background : #eee;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+}
+.child{
+   width: 100px;
+   height: 150px;
+   background-color: white;
+}
+
+.parent{
+    width: 50%;
+height:50%;
+background : #eee;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+
+}
+.boy {
+    width: 50%;
+   height: 18%;
+   background-color: white;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+   
+.parent2{
+    width: 50%;
+height: 50%;
+background : #eee;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+
+}
+.child1{
+    width: 100px;
+    height: 150px;
+    background-color: yellow;
+}
+    
+.parent3{
+    width: 50%;
+height: 50%;
+background : #eee;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid gray;
+}
+.child2{
+width: 100px;
+height: 150px;
+background-color: white;}
+
+#star{
+    color: green;
+    width: 100px;
+    height: 30px;
+
+}
+#star1{
+    color: green;
+    width: 100px;
+    height: 30px;
+  
+}
+
+#line{
+    border-bottom-style: solid;
+    padding-bottom: 80px;
+    border-color: grey;
+}
